@@ -1,0 +1,18 @@
+.block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block-item {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
+}
+
+.block-item > h2 {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+}

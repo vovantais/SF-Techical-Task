@@ -1,0 +1,21 @@
+<template>
+  <lightning-card title="Sort string" variant="base" lwc:if={isShowData}>
+    <section class="block">
+      <div class="block-item">
+        <h2>Use LWC</h2>
+        <lightning-combobox
+          name="sortString"
+          options={picklistOptions}
+          label="Choose string"
+        >
+        </lightning-combobox>
+      </div>
+      <div class="block-item">
+        <h2>Use Apex</h2>
+        <template for:each={sortedLines} for:item="line">
+          <div key={line}>{line}</div>
+        </template>
+      </div>
+    </section>
+  </lightning-card>
+</template>

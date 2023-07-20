@@ -1,0 +1,4 @@
+* NOTES:
+- To deploy to you org, go to the directory manifest and run command sfdx force:source:deploy -x .\package.xml
+- Assign a PermissionSet TechnicalTaskPermission to User to see Object and have access to Classes
+- To see the LWC component you need to add it to one of these pages lightningRecordAction, lightningAppPage, lightningRecordPage, lightningHomePage
